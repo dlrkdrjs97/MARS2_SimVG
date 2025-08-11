@@ -127,29 +127,7 @@ CUDA_VISIBLE_DEVICES=0 python eval_for_MARS2_SimVG.py
 - **Visual Images**: `visualize/results/` with bounding boxes drawn
 - **Progress Logs**: Real-time processing status and statistics
 
-## 📈 Performance
 
-- **Processing Speed**: ~5.5 items/second on RTX GPU
-- **Memory Usage**: Optimized for large datasets
-- **Error Rate**: Graceful handling of failed inferences
-- **Output Quality**: High-precision coordinate extraction
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **CUDA Out of Memory**: Reduce batch size or use smaller GPU
-2. **Import Errors**: Ensure SimVG is properly installed
-3. **File Not Found**: Check paths for images and weights
-4. **Tokenization Errors**: Verify text input format
-
-### Error Handling
-
-The system automatically handles:
-- Missing images
-- Invalid text inputs
-- Inference failures
-- Memory issues
 
 ## 📚 References
 
