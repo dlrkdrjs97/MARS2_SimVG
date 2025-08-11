@@ -1,0 +1,12 @@
+data
+*.pyc
+simvg.egg-info/
+work_dir/
+*.whl
+*.zip
+pretrain_weights
+visualization/
+visualize/
+vis_cross/
+Visualizer-main/
+weights/
